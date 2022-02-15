@@ -24,16 +24,31 @@ console.log('test'+pocitadlo);
 pocitadlo++;
 
 }
+// vlastnosti událostí
+function stiskKlavesy(udalost){
+    console.log(udalost.key);
+}
+
+
 
 //ukol breakoutroom
-let odstavec = document.querySelector('p')
+
 function ztloustni() {
-
-odstavec.style.fontWeight= 'bold';
-
+    let odstavec = document.querySelector('p')
+    odstavec.style.fontWeight= 'bold';
 }
+
+
 function zhubni() {
-
+    let odstavec = document.querySelector('p')
     odstavec.style.fontWeight= 'initial';
+}
+//tip: funkce by měly mít let definovanou uvnitř a nikoli globálně,aby to bylo použitelné i pro jindy a jinde
+
+//úkol 1
+
+function cervena() {
 
 }
+
+//úkol 2
