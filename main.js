@@ -32,3 +32,8 @@ function ztloustni() {
 odstavec.style.fontWeight= 'bold';
 
 }
+function zhubni() {
+
+    odstavec.style.fontWeight= 'initial';
+
+}
