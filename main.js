@@ -29,7 +29,10 @@ function stiskKlavesy(udalost){
     console.log(udalost.key);
 }
 
-
+function startAudio() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.play();
+}
 
 //ukol breakoutroom
 
