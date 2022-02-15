@@ -8,6 +8,19 @@ nadpis.classList.add('zluty');
 nadpis.classList.remove('zluty');
 
 let ctverecek = document.querySelector('div.zluty');
-ctverecek.classList('ctverecek');
+ctverecek.classList.add('ctverecek');
 
 //toggle - přidá se nebo odebere třída podle toho,co tam je
+function zmenStyl() {
+nadpis.classList.toggle('zeleny')
+
+}
+
+//udalosti
+let pocitadlo = 0;
+function priNajetiNaCtverec() {
+
+console.log('test'+pocitadlo);
+pocitadlo++;
+
+}
