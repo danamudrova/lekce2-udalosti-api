@@ -24,3 +24,11 @@ console.log('test'+pocitadlo);
 pocitadlo++;
 
 }
+
+//ukol breakoutroom
+let odstavec = document.querySelector('p')
+function ztloustni() {
+
+odstavec.style.fontWeight= 'bold';
+
+}
